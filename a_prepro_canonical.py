@@ -1,5 +1,5 @@
 # step one
-# canonical form and reduce number of data due to resource limitation
+# canonical form and reduce number of data
 # the output data_prepro/data_smiles.csv
 
 import pandas as pd
