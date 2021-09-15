@@ -20,6 +20,8 @@ Keras = 2.4.3
 
 * Create folder "gan_model" to save the trained gan model
 
+* The models and methods descriptions can be seen on "Report.pptx"
+
 
 ### Run the following codes for data preprocessing:
 1. a_prepro_canonical.py
