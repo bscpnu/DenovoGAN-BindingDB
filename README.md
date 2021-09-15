@@ -2,12 +2,23 @@
  Drug Denovo Design using GAN for Daewoong Project
  
  
-# Components:
+### Components:
 Python = 3.7
 
 Tensorflow = 2.3.0
 
 Keras = 2.4.3
+
+
+### preliminary:
+
+* Create folder "data" that contains BindingDB.csv dataset
+
+* Create folder "model_vae_comp" that containing sub folder "encoder" and "decoder" -> for saving VAE model of compound
+
+* Create folder "model_vae_target" that containing sub folder "encoder" and "decoder" -> for saving VAE model of target
+
+* Create folder "gan_model" to save the trained gan model
 
 
 ### Run the following codes for data preprocessing:
