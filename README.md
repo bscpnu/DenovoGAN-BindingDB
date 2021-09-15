@@ -21,7 +21,7 @@ Keras = 2.4.3
 6. f_vae_compound.py 
 7. g_load_vae_compound.py (load and save the latent variable)
 
-### VAE for projecting latent variable of target
+### VAE for projecting latent variable of target:
 8. h_vae_target.py
 9. i_load_vae_target.py (load and save the latent variable)
 
