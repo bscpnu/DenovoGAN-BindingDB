@@ -13,7 +13,7 @@ def load_data():
     ### BindingDB_curation_20200627 data is exluded by github since the size is large
     df = pd.read_csv('data/BindingDB_curation_20200627.csv')
     df = df.rename(columns={'Ligand SMILES': 'compound', 'BindingDB Target Chain  Sequence': 'target'})
-    df = df[0:10000]
+    df = df[0:15000]
     return df
 
 def canonical_smiles(smiles, sanitize=True, throw_warning=False):
