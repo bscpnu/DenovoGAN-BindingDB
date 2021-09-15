@@ -163,7 +163,7 @@ if __name__ == '__main__':
     df_atom = pd.DataFrame(np_semiatom)
     #print(df)
     # print(df.shape)
-    df_atom.to_csv("semi_atom2.csv", index=False)
+    df_atom.to_csv("data_prepro/semi_atom.csv", index=False)
     print("df_atom")
     print(df_atom)
     serie = pd.Series(np_semiatom)
@@ -179,10 +179,10 @@ if __name__ == '__main__':
 
     k_bkurung = np.array(list_bkurung)
     df_bkurung = pd.DataFrame(np.array(list_bkurung))
-    df_bkurung.to_csv("data_prepro/open_bracket.csv", index=False)
+    df_bkurung.to_csv("data_prepro/list_obracket.csv", index=False)
 
     df_tkurung = pd.DataFrame(np.array(list_tkurung))
-    df_tkurung.to_csv("data_prepro/closed_bracket.csv", index=False)
+    df_tkurung.to_csv("data_prepro/list_cbracket.csv", index=False)
 
     list_bracket2 = [x for x in list_bracket if x != []]
     list_chain2 = [x for x in list_chain if x != []]
