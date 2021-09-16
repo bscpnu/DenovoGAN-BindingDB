@@ -42,3 +42,11 @@ Keras = 2.4.3
 ### GAN for predicting new compound:
 10. j_my_gan.py
 11. k_load_gan.py
+
+### Result:
+
+![alt text](denovo_gan_result.png)
+
+![alt text](denovo_gan_table.png)
+
+
