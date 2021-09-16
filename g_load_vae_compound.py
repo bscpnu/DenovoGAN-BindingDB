@@ -31,6 +31,7 @@ def load_data():
     df2 = pd.read_csv('data_prepro/data_smiles.csv')
     df2 = df2[0:15000]
     df = pd.concat([df1['0'], df2['target'], df2['canon_smiles']], axis=1)
+    df = df.dropna()
     return df
 
 
