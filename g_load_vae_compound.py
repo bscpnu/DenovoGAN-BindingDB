@@ -129,7 +129,7 @@ if __name__ == '__main__':
 
     g_model, encoder, decoder = define_generator(compound_shape)
 
-    encoder.load_weights('encoder_vae_comp/encoder/encoder_180.h5')
+    encoder.load_weights('model_vae_comp/encoder/encoder_180.h5')
     latent_pred = encoder.predict(ls_compound)[2]
 
     df_latent = pd.DataFrame(latent_pred)
