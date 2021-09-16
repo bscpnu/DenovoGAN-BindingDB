@@ -3,11 +3,11 @@
  
  
 ### Components:
-Python = 3.7
+Python version = 3.7
 
-Tensorflow = 2.3.0
+Tensorflow version = 2.3.0
 
-Keras = 2.4.3
+Keras version = 2.4.3
 
 
 ### Preliminary:
