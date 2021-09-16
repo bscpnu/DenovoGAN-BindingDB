@@ -44,8 +44,8 @@ Keras = 2.4.3
 11. k_load_gan.py
 
 ### Result:
-<img src="denovo_gan_result.png" alt="drawing" style="width:800px;"/>
+<img src="output_denovo_gan_result.png" alt="drawing" style="width:800px;"/>
 
-<img src="denovo_gan_table.png" alt="drawing" style="width:400px;"/>
+<img src="output_denovo_gan_table.png" alt="drawing" style="width:400px;"/>
 
 
